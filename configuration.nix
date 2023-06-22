@@ -101,10 +101,6 @@
   virtualisation.docker.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-#  services.xserver.videoDrivers = [ "nvidia" ];
-#  hardware.opengl.enable = true;
-#  hardwware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.stable;
-#  hardware.nvidia.modesetting.enable = true;
   
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -118,31 +114,22 @@
         pkg-config
         gparted
         gnome.gnome-disk-utility
-        gwe
         audacious
         file
         unzip
-#       xz-utils
         zip
         p7zip
         pciutils
-        microcodeIntel
         apparmor-profiles
         apparmor-utils
         onlyoffice-bin
         virtualbox
         vscodium  
         brave
-        element-desktop
         libreoffice
-        keepassxc  
-        prismlauncher
         cherrytree
         bleachbit
         vlc
-        protonvpn-cli
-        ivpn
-        emacs
         qbittorrent 
 
 
